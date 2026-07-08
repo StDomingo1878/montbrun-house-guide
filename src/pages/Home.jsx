@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import { useState } from "react";
 import HomeCard from "../components/HomeCard";
 import { sections } from "../data/guideContent";
@@ -20,10 +21,19 @@ function Home() {
 
         <section className="item-list">
           {activeSection.items.map((item) => (
-            <article className="guide-item" key={item.title}>
-              <h2>{item.title}</h2>
-              <p>{item.text}</p>
-            </article>
+     <article className="guide-item" key={item.title}>
+  <h2>{item.title}</h2>
+  <div className="markdown">
+  <ReactMarkdown>{item.text}</ReactMarkdown>
+</div>
+
+  {item.video && (
+    <video className="guide-video" controls preload="metadata">
+      <source src={item.video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  )}
+</article>
           ))}
         </section>
       </main>

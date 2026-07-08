@@ -196,3 +196,29 @@ button {
   line-height: 1.55;
   color: #53604e;
 }
+.guide-video {
+  width: 100%;
+  margin-top: 14px;
+  border-radius: 16px;
+  background: #000;
+}
+.markdown p {
+  margin: 0 0 12px;
+  line-height: 1.55;
+  color: #53604e;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown ul,
+.markdown ol {
+  margin: 8px 0 0;
+  padding-left: 22px;
+  color: #53604e;
+}
+
+.markdown li {
+  margin-bottom: 6px;
+}

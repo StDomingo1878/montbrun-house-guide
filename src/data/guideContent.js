@@ -1,5 +1,48 @@
 export const sections = [
   {
+  id: "welcome",
+  icon: "🏡",
+  title: "1. Welcome",
+  subtitle: "Welcome to Mourrel de Goudy, our little corner of southern France.",
+  items: [
+    {
+      title: "Welcome to Montbrun",
+      text: `
+Welcome to **Montbrun House**.
+
+We're delighted you've chosen to stay here.
+
+Before you unpack, we'd recommend:
+
+- ☕ Put the kettle on.
+- 🍷 Or open a bottle of local wine.
+- 🌿 Sit on the terrace for ten minutes.
+
+**Life moves a little slower here... and that's exactly the point.**`
+    },
+    {
+      title: "Why we chose it",
+      text: "We wanted somewhere surrounded by vineyards and beautiful countryside, but still within easy reach of the Mediterranean coast, traditional markets, historic towns and spectacular scenery. Montbrun-des-Corbières turned out to be exactly what we were looking for."
+    },
+    {
+      title: "What this guide is for",
+      text: "This guide is designed to help you make the most of your stay. It covers everything from how the house works to some of our favourite places to eat, drink and explore."
+    },
+    {
+      title: "Most importantly",
+      text: "Relax. Pour yourself a glass of local wine, sit out on the terrace, listen to the bush crickets and enjoy the slower pace of life."
+    },
+    {
+      title: "Guest book",
+      text: "Before you leave, we'd appreciate it if you could add a note to the guest book. We'd love to hear about places you've discovered, things you've enjoyed, anything that could be improved, or ideas for making this guide even more useful for future visitors."
+    },
+    {
+      title: "Jon & Kate",
+      text: "Welcome to Montbrun — we hope you have a wonderful stay. Life is better when shared."
+    }
+  ]
+},
+  {
     id: "getting-started",
     icon: "🚗",
     title: "Getting Started",
@@ -11,11 +54,13 @@ items: [
   },
   {
     title: "Arriving from Lézignan-Corbières",
-    text: "Use the Driving from Lézignan video for the final approach if you are arriving from the Lézignan side."
+    text: "Use the Driving from Lézignan video for the final approach if you are arriving from the Lézignan side.",
+    video: "/videos/Driving-From-Lezignan.mp4"
   },
   {
     title: "Arriving from Toulouse or Carcassonne",
-    text: "Use the Driving from Carcassonne video for the final approach if you are arriving from Toulouse, Carcassonne or the motorway."
+    text: "Use the Driving from Carcassonne video for the final approach if you are arriving from Toulouse, Carcassonne or the motorway.",
+    video: "/videos/Driving-From-Carcassonne1.mp4"
   },
   {
     title: "Parking when you arrive",
@@ -23,15 +68,18 @@ items: [
   },
   {
     title: "Key safe",
-    text: "The key safe is mounted on the wall beside the large gate. The four-digit code will be provided before your stay."
+    text: "The key safe is mounted on the wall beside the large gate. The four-digit code will be provided before your stay.",
+    video: "/videos/Access.mp4"
   },
   {
     title: "Hot water",
-    text: "When the house is empty, we usually leave the hot water switched off to save electricity. One of the first things to do after arriving is turn it on. The water heats overnight on the cheaper electricity tariff, so once it is switched on you should not need to do anything else during your stay."
+    text: "When the house is empty, we usually leave the hot water switched off to save electricity. One of the first things to do after arriving is turn it on. The water heats overnight on the cheaper electricity tariff, so once it is switched on you should not need to do anything else during your stay.",
+    video: "/videos/Hot-Water.mp4"
   },
   {
     title: "Shutters and fly screens",
-    text: "When you first arrive, the shutters will usually be closed and locked. After entering through the front door, work your way around the house opening the shutters. If you want fresh air, pull down the fly screens as well. The shutters help keep the house cool, and the fly screens let you enjoy the evening breeze without inviting mosquitoes in."
+    text: "When you first arrive, the shutters will usually be closed and locked. After entering through the front door, work your way around the house opening the shutters. If you want fresh air, pull down the fly screens as well. The shutters help keep the house cool, and the fly screens let you enjoy the evening breeze without inviting mosquitoes in.",
+    video: "/videos/Shutters.mp4"
   },
   {
     title: "First ten minutes",
@@ -59,11 +107,13 @@ items: [
   },
   {
     title: "Sofa bed",
-    text: "The sofa converts into a comfortable double bed. To open it, move the coffee table out of the way and pull the sofa slightly away from the wall if needed."
+    text: "The sofa converts into a comfortable double bed. To open it, move the coffee table out of the way and pull the sofa slightly away from the wall if needed.",
+    video: "/videos/Sofa-Bed.mp4"
   },
   {
     title: "Air conditioning",
-    text: "There is currently a portable air conditioning unit in the living room. It works best if you close the shutters during the hottest part of the day, keep doors and windows closed while it is running, and switch it off when you go out."
+    text: "There is currently a portable air conditioning unit in the living room. It works best if you close the shutters during the hottest part of the day, keep doors and windows closed while it is running, and switch it off when you go out.",
+    video: "/videos/AC.mp4"
   },
   {
     title: "Washing machine and tumble dryer",
@@ -71,7 +121,8 @@ items: [
   },
   {
     title: "Cleaning equipment",
-    text: "The Shark steam mop, vacuum and cleaning products are stored in the garage."
+    text: "The Shark steam mop, vacuum and cleaning products are stored in the garage.",
+    video: "/videos/Shark-Video.mp4"
   },
   {
     title: "Guest storage",

@@ -11,10 +11,11 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-markdown": "latest"
+    "react-markdown": "latest",
+    "vite": "latest",
+    "vite-plugin-pwa": "^1.3.0"
   },
   "devDependencies": {
     "gh-pages": "latest"

@@ -7,7 +7,6 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.svg", "icons.svg"],
       manifest: {
         name: "Montbrun Companion",
         short_name: "Montbrun",

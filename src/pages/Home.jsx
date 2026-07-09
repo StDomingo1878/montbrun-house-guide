@@ -1,23 +1,10 @@
 import ReactMarkdown from "react-markdown";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import HomeCard from "../components/HomeCard";
 import { sectionGroups } from "../data/guideContent";
 
 function Home() {
-  const [offlineReady, setOfflineReady] = useState(false);
-
-useEffect(() => {
-  const handleOfflineReady = () => {
-    setOfflineReady(true);
-  };
-
-  window.addEventListener("offline-ready", handleOfflineReady);
-
-  return () => {
-    window.removeEventListener("offline-ready", handleOfflineReady);
-  };
-}, []);
-
+ 
 const [activeSection, setActiveSection] = useState(null);
 
   if (activeSection) {
@@ -81,13 +68,11 @@ const [activeSection, setActiveSection] = useState(null);
         <h1> Montbrun des Corbieres<br></br> and Our House</h1>
       </section>
 <div className="offline-badge">
-  {offlineReady ? "✅ Available offline" : "Preparing offline guide…"}
+  📱 Offline guide enabled — videos may take a few minutes to download fully
 </div>
       <section className="intro-card">
         <h2>Make yourself at home</h2>
-        <p>
           <h2>This is your guide to the house and the local area</h2>
-        </p>
       </section>
 
 {sectionGroups.map((group) => (

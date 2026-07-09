@@ -1,7 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import { useState } from "react";
 import HomeCard from "../components/HomeCard";
-import { sections } from "../data/guideContent";
+import { sectionGroups } from "../data/guideContent";
 
 function Home() {
   const [activeSection, setActiveSection] = useState(null);
@@ -14,6 +14,7 @@ function Home() {
         </button>
 
         <header className="section-header">
+          <div className="section-hero-image"></div>
           <div className="section-icon">{activeSection.icon}</div>
           <h1>{activeSection.title}</h1>
           <p>{activeSection.subtitle}</p>
@@ -22,7 +23,10 @@ function Home() {
         <section className="item-list">
           {activeSection.items.map((item) => (
      <article className="guide-item" key={item.title}>
-  <h2>{item.title}</h2>
+      <h2>
+        {item.icon && <span className="guide-item-icon">{item.icon}</span>}
+        {item.title}
+      </h2>
   <div className="markdown">
   <ReactMarkdown>{item.text}</ReactMarkdown>
 </div>
@@ -33,7 +37,21 @@ function Home() {
       Your browser does not support the video tag.
     </video>
   )}
-</article>
+  {item.actions && (
+    <div className="guide-actions">
+      {item.actions.map((action) => (
+        <a
+          className="guide-action"
+          href={action.url}
+          key={action.label}
+          target={action.url.startsWith("http") ? "_blank" : undefined}
+          rel={action.url.startsWith("http") ? "noreferrer" : undefined}
+        >
+          {action.label}
+        </a>
+      ))}
+    </div>
+)}</article>
           ))}
         </section>
       </main>
@@ -43,30 +61,42 @@ function Home() {
   return (
     <main className="home-page">
       <section className="hero">
-        <p className="eyebrow">Welcome to</p>
-        <h1>Montbrun House</h1>
-        <p className="tagline">Slow down. Relax. Enjoy.</p>
+        <p className="eyebrow">
+            Welcome to
+        </p>
+        <h1> Montbrun des Corbieres<br></br> and Our House</h1>
       </section>
 
       <section className="intro-card">
         <h2>Make yourself at home</h2>
         <p>
-          Everything you need for arriving, settling in, using the house,
-          exploring the area and getting help if you need it.
+          <h2>This is your guide to the house and the local area</h2>
         </p>
       </section>
 
-      <section className="home-grid">
-        {sections.map((section) => (
-          <HomeCard
-            key={section.id}
-            icon={section.icon}
-            title={section.title}
-            subtitle={section.subtitle}
-            onClick={() => setActiveSection(section)}
-          />
-        ))}
-      </section>
+{sectionGroups.map((group) => (
+  <section className="home-group" key={group.id}>
+    <div className="group-header">
+      <div className="group-icon">{group.icon}</div>
+      <div>
+        <h2>{group.title}</h2>
+        <p>{group.subtitle}</p>
+      </div>
+    </div>
+
+    <div className="home-grid">
+      {group.sections.map((section) => (
+        <HomeCard
+          key={section.id}
+          icon={section.icon}
+          title={section.title}
+          subtitle={section.subtitle}
+          onClick={() => setActiveSection(section)}
+        />
+      ))}
+    </div>
+  </section>
+))}
     </main>
   );
 }

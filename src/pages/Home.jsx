@@ -1,10 +1,24 @@
 import ReactMarkdown from "react-markdown";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import HomeCard from "../components/HomeCard";
 import { sectionGroups } from "../data/guideContent";
 
 function Home() {
-  const [activeSection, setActiveSection] = useState(null);
+  const [offlineReady, setOfflineReady] = useState(false);
+
+useEffect(() => {
+  const handleOfflineReady = () => {
+    setOfflineReady(true);
+  };
+
+  window.addEventListener("offline-ready", handleOfflineReady);
+
+  return () => {
+    window.removeEventListener("offline-ready", handleOfflineReady);
+  };
+}, []);
+
+const [activeSection, setActiveSection] = useState(null);
 
   if (activeSection) {
     return (
@@ -66,7 +80,9 @@ function Home() {
         </p>
         <h1> Montbrun des Corbieres<br></br> and Our House</h1>
       </section>
-
+<div className="offline-badge">
+  {offlineReady ? "✅ Available offline" : "Preparing offline guide…"}
+</div>
       <section className="intro-card">
         <h2>Make yourself at home</h2>
         <p>

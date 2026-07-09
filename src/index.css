@@ -280,3 +280,13 @@ button {
   border-radius: 999px;
   font-weight: 700;
 }
+.offline-badge {
+  margin: 0.75rem auto 1rem;
+  padding: 0.6rem 0.9rem;
+  max-width: 420px;
+  border-radius: 999px;
+  background: #f4efe7;
+  color: #243025;
+  font-size: 0.9rem;
+  text-align: center;
+}

@@ -7,6 +7,16 @@ import { outsideHouseContent } from "../content/outsideHouse";
 import { housekeepingContent } from "../content/housekeeping";
 import { beforeLeaveContent } from "../content/beforeLeave";
 import { emergenciesContent } from "../content/emergencies";
+import { groceriesContent } from "../content/groceries";
+import { areaContent } from "../content/area";
+import { marketsContent } from "../content/markets";
+import { restaurantsContent } from "../content/restaurants";
+import { wineContent } from "../content/wine";
+import { villagesContent } from "../content/villages";
+import { beachesContent } from "../content/beaches";
+import { scenicDrivesContent } from "../content/scenicDrives";
+import { walkingContent } from "../content/walking";
+import { favouritePlacesContent } from "../content/favouritePlaces";
 export const sectionGroups = [
   {
     id: "your-stay",
@@ -72,16 +82,76 @@ export const sectionGroups = [
     icon: "🧭",
     subtitle: "Our favourite places around the Corbières and Mediterranean coast.",
     sections: [
-      { id: "area", icon: "📍", title: "The Area", subtitle: "Montbrun, local rhythm and French opening hours", items: [] },
-      { id: "groceries", icon: "🛒", title: "Groceries & Amenities", subtitle: "Essentials, supermarkets, bakeries, fuel, pharmacy and cash", items: [] },
-      { id: "markets", icon: "🧺", title: "Markets", subtitle: "Narbonne, Lézignan, local markets and market tips", items: [] },
-      { id: "restaurants", icon: "🍽️", title: "Restaurants & Cafés", subtitle: "Local meals, crêpes, seafood, coffee and special meals", items: [] },
-      { id: "wine", icon: "🍷", title: "Wine", subtitle: "Vineyards, buying wine, Corbières, Minervois and BIB wine", items: [] },
-      { id: "villages", icon: "🏘️", title: "Villages, Towns & Cities", subtitle: "Moux, Escales, Lézignan, Narbonne, Carcassonne and more", items: [] },
-      { id: "beaches", icon: "🏖️", title: "Beaches", subtitle: "Gruissan, Narbonne Plage and Sérignan", items: [] },
-      { id: "scenic-drives", icon: "🚙", title: "Scenic Drives", subtitle: "Vineyards, Black Mountains, coast roads and medieval villages", items: [] },
-      { id: "walking", icon: "🥾", title: "Walking", subtitle: "Montbrun, Escales and the Black Mountains", items: [] },
-      { id: "favourites", icon: "❤️", title: "Our Favourite Places", subtitle: "The places and rituals we love most", items: [] },
+      {
+  id: "area",
+  icon: "🌿",
+  title: "The Area",
+  subtitle: "Vineyards, villages, beaches and the rhythm of southern France",
+  items: areaContent
+},
+{
+  id: "groceries",
+  icon: "🛒",
+  title: "Groceries",
+  subtitle: "Supermarkets, bakeries, fuel, pharmacy and Sunday chicken",
+  items: groceriesContent
+},
+{
+  id: "markets",
+  icon: "🧺",
+  title: "Markets",
+  subtitle: "Fresh food, local produce and morning market tips",
+  items: marketsContent
+},
+{
+  id: "restaurants",
+  icon: "🍽️",
+  title: "Restaurants",
+  subtitle: "Relaxed meals, crêpes, seafood and local favourites",
+  items: restaurantsContent
+},
+{
+  id: "wine",
+  icon: "🍷",
+  title: "Wine",
+  subtitle: "Vineyards, tastings, Corbières, Minervois and BIB wine",
+  items: wineContent
+},
+{
+  id: "villages",
+  icon: "🏘️",
+  title: "Villages, Towns and Cities",
+  subtitle: "Moux, Escales, Lézignan, Narbonne, Carcassonne and more",
+  items: villagesContent
+},
+{
+  id: "beaches",
+  icon: "🏖️",
+  title: "Beaches",
+  subtitle: "Mediterranean beach days within easy reach",
+  items: beachesContent
+},
+{
+  id: "scenic-drives",
+  icon: "🚗",
+  title: "Scenic Drives",
+  subtitle: "Vineyards, mountains, coast roads and medieval villages",
+  items: scenicDrivesContent
+},
+{
+  id: "walking",
+  icon: "🚶",
+  title: "Walking",
+  subtitle: "Village strolls, vineyard walks and the Black Mountains",
+  items: walkingContent
+},
+{
+  id: "favourite-places",
+  icon: "❤️",
+  title: "Favourite Places",
+  subtitle: "The places we'd recommend above all others",
+  items: favouritePlacesContent
+},
     ],
   },
   {

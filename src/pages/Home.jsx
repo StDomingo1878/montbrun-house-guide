@@ -1,16 +1,35 @@
 import ReactMarkdown from "react-markdown";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import HomeCard from "../components/HomeCard";
 import { sectionGroups } from "../data/guideContent";
 
 function Home() {
  
 const [activeSection, setActiveSection] = useState(null);
+const openSection = (section) => {
+  setActiveSection(section);
+  window.history.pushState({ sectionId: section.id }, "", `#${section.id}`);
+};
+
+useEffect(() => {
+  const handlePopState = () => {
+    setActiveSection(null);
+  };
+
+  window.addEventListener("popstate", handlePopState);
+
+  return () => {
+    window.removeEventListener("popstate", handlePopState);
+  };
+}, []);
+const goBack = () => {
+  window.history.back();
+};
 
   if (activeSection) {
     return (
       <main className="section-page">
-        <button className="back-button" onClick={() => setActiveSection(null)}>
+        <button className="back-button" onClick={goBack}>
           ← Back
         </button>
 
@@ -73,7 +92,7 @@ const [activeSection, setActiveSection] = useState(null);
 </section>
 
 <div className="offline-badge">
-  📱 Offline guide enabled — videos may take a few minutes to download fully
+  📱 This guide works offline. On your first visit, videos may take a minute or two to download over Wi-Fi.
 </div>
 
 {sectionGroups.map((group) => (
@@ -93,7 +112,7 @@ const [activeSection, setActiveSection] = useState(null);
           icon={section.icon}
           title={section.title}
           subtitle={section.subtitle}
-          onClick={() => setActiveSection(section)}
+          onClick={() => openSection(section)}
         />
       ))}
     </div>

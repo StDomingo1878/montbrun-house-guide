@@ -2,6 +2,11 @@ import { welcomeContent } from "../content/welcome";
 import { keyInfoContent } from "../content/keyInfo";
 import { beforeTravelContent } from "../content/beforeTravel";
 import { arrivingContent } from "../content/arriving";
+import { insideHouseContent } from "../content/insideHouse";
+import { outsideHouseContent } from "../content/outsideHouse";
+import { housekeepingContent } from "../content/housekeeping";
+import { beforeLeaveContent } from "../content/beforeLeave";
+import { emergenciesContent } from "../content/emergencies";
 export const sectionGroups = [
   {
     id: "your-stay",
@@ -32,14 +37,33 @@ export const sectionGroups = [
       },
       { 
         id: "arriving", 
-        icon: "🚗", title: 
-        "Arriving", 
+        icon: "🚗", 
+        title: "Arriving", 
         subtitle: "Finding the house, parking, key safe, hot water and shutters", 
         items: arrivingContent, 
       },
-      { id: "inside-house", icon: "🏠", title: "Inside the House", subtitle: "Kitchen, AC, sofa bed, laundry, storage and electricity", items: [] },
-      { id: "outside-house", icon: "🌿", title: "Outside the House", subtitle: "Pool, Woodfire, lights, garden, post and outdoor furniture", items: [] },
-      { id: "housekeeping", icon: "🧹", title: "Housekeeping", subtitle: "Bins, recycling, house rules and safety", items: [] },
+      {
+        id: "inside-house",
+        icon: "🏡",
+        title: "Inside the House",
+        subtitle: "Kitchen, sofa bed, air conditioning and practical bits",
+        items: insideHouseContent,
+      },
+      {
+        id: "outside-house",
+        icon: "🌿",
+        title: "Outside the House",
+        subtitle: "Pool, garden, outdoor cooking and terrace living",
+        items: outsideHouseContent
+      },
+
+      {
+        id: "housekeeping",
+        icon: "🧹",
+        title: "Housekeeping",
+        subtitle: "Looking after the house during your stay",
+        items: housekeepingContent
+      },
     ],
   },
   {
@@ -66,7 +90,13 @@ export const sectionGroups = [
     icon: "👋",
     subtitle: "Final checklist before heading home.",
     sections: [
-      { id: "before-you-leave", icon: "✅", title: "Before You Leave", subtitle: "Departure checklist and thank you", items: [] },
+      { 
+        id: "before-leave",
+        icon: "✅",
+        title: "Before You Leave",
+        subtitle: "A simple checklist before heading home",
+        items: beforeLeaveContent
+},
     ],
   },
   {
@@ -75,7 +105,8 @@ export const sectionGroups = [
     icon: "🆘",
     subtitle: "Emergency contacts and practical help.",
     sections: [
-      { id: "emergencies", icon: "☎️", title: "Emergencies", subtitle: "Emergency services, medical assistance, house contacts and utilities", items: [] },
+      { 
+        id: "emergencies", icon: "☎️", title: "Emergencies", subtitle: "Emergency services, medical assistance, house contacts and utilities", items: emergenciesContent },
     ],
   },
 ];

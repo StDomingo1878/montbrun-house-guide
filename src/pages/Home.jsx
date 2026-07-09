@@ -67,13 +67,14 @@ const [activeSection, setActiveSection] = useState(null);
         </p>
         <h1> Montbrun des Corbieres<br></br> and Our House</h1>
       </section>
+<section className="intro-card">
+  <h2>Make yourself at home</h2>
+  <h2>This is your guide to the house and the local area</h2>
+</section>
+
 <div className="offline-badge">
   📱 Offline guide enabled — videos may take a few minutes to download fully
 </div>
-      <section className="intro-card">
-        <h2>Make yourself at home</h2>
-          <h2>This is your guide to the house and the local area</h2>
-      </section>
 
 {sectionGroups.map((group) => (
   <section className="home-group" key={group.id}>

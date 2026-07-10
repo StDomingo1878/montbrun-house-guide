@@ -359,4 +359,25 @@ button {
 .next-section-arrow {
   flex: 0 0 auto;
   font-size: 1.4rem;
+  }
+  
+.install-button {
+  display: block;
+  width: calc(100% - 2rem);
+  max-width: 420px;
+  margin: 0.75rem auto 1.5rem;
+  padding: 0.9rem 1rem;
+  border: 0;
+  border-radius: 999px;
+  background: #6b7a4d;
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 5px 16px rgba(36, 48, 37, 0.16);
+}
+
+.install-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 20px rgba(36, 48, 37, 0.22);
 }

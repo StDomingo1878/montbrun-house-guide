@@ -142,5 +142,17 @@ There is a master electrical isolation switch inside the wardrobe in the second 
 
 It doesn't just turn off the house—it also cuts power to the pool equipment and other essential systems.
 `
+  },
+    {
+    icon: "🛁",
+    title: "Towels",
+    text: `
+Towels-
+In the cupboard in the bathroom there is a set of beige towels for showers & on the shelf below, stripey  towels for the pool. 
+
+Use whatever you need, wash and return to the cupboard for the next guests.
+`
   }
 ];
+
+

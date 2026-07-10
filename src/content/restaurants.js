@@ -47,7 +47,9 @@ Hermine is always happy to help with gluten-free and other requirements.
   {
     icon: "🥞",
     title: "For Crêpes",
-    text: `
+                  image: "/images/creperie.jpg",
+  imageAlt: "Creperie Bretonne",
+  text: `
 **La Crêperie Bretonne, Lézignan-Corbières — approx. 10 minutes**
 
 One of our regular favourites.

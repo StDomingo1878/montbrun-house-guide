@@ -14,7 +14,9 @@ These are the places we return to time and time again.
   {
     icon: "🌿",
     title: "Montbrun-des-Corbières",
-    text: `
+              image: "/images/montbrun.jpg",
+  imageAlt: "montbrun",
+  text: `
 Our little village is wonderfully peaceful.
 
 Take a stroll around the quiet lanes, admire the stone houses and enjoy the views across the vineyards.
@@ -75,7 +77,8 @@ Don't miss:
     icon: "🏰",
     title: "Carcassonne",
           image: "/images/carcassonne.jpg",
-  imageAlt: "cite",text: `
+  imageAlt: "cite",
+  text: `
 The medieval citadel at Carcassonne is one of France's most famous attractions.
 
 It's absolutely worth visiting, especially if it's your first time.

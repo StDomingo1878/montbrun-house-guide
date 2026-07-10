@@ -2,6 +2,8 @@ export const outsideHouseContent = [
   {
     icon: "🌿",
     title: "Outside the House",
+          image: "/images/garden3.jpg",
+  imageAlt: "bench and views",
     text: `
 One of the reasons we fell in love with this house is the outdoor space.
 
@@ -78,7 +80,9 @@ When you're in the garden, see if you can spot the horses or hear the donkey, es
   {
     icon: "📮",
     title: "Post",
-    text: `
+                  image: "/images/post.jpg",
+  imageAlt: "Postbox",
+  text: `
 We'd really appreciate it if you could check the post box once during your stay.
 
 The post box is beside the large gate, and the key can be found in the cupboard in the living room.

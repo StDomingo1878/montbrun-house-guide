@@ -2,7 +2,7 @@ export const insideHouseContent = [
   {
     icon: "🏡",
     title: "Inside the House",
-              image: "/images/bedroom.jpg",
+              image: "/images/lounge.jpg",
   imageAlt: "main bedroom",text: `
 The house is fairly straightforward to use, but we've included a few notes and short videos to help you get the most out of everything.
 

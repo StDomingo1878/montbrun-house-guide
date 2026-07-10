@@ -58,7 +58,9 @@ It's one of those little things that makes a holiday in France feel properly Fre
   {
     icon: "🍗",
     title: "Rotisserie Chicken",
-    text: `
+          image: "/images/chicken.jpg",
+  imageAlt: "Rotisserie Chicken",
+  text: `
 One thing that has already become a Chivers Sunday traditions is enjoying a fresh rotisserie chicken for lunch.
 
 On Sunday mornings, many butchers and food shops prepare beautifully cooked roast chickens, often served with roasted potatoes or other side dishes.

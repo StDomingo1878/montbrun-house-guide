@@ -31,7 +31,9 @@ The views constantly change with the seasons:
   {
     icon: "🏞️",
     title: "Canal du Midi",
-    text: `
+                      image: "/images/canal.jpg",
+  imageAlt: "Canal Du Midi",
+  text: `
 The Canal du Midi offers gentle, mostly flat walking beside one of France's greatest engineering achievements.
 
 You'll pass:

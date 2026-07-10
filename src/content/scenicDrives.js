@@ -48,7 +48,9 @@ Expect:
   {
     icon: "⛰️",
     title: "The Black Mountains",
-    text: `
+                  image: "/images/blackmountain.jpg",
+  imageAlt: "Montagne Noire",
+  text: `
 Head north-west towards the Montagne Noire (Black Mountains) for a completely different landscape.
 
 The vineyards gradually give way to forests, rivers and cooler mountain air.

@@ -12,7 +12,9 @@ If we had a week in Montbrun, these are the days we'd probably choose.
   {
     icon: "🥖",
     title: "1. A Slow Sunday Lunch",
-    text: `
+          image: "/images/chicken2.jpg",
+  imageAlt: "Rotisserie Chicken",
+  text: `
 Order a rotisserie chicken from the shop in Moux or L'Atelier du Gourmet.
 
 Pick up a fresh baguette.
@@ -43,7 +45,9 @@ Wander through the old streets.
   {
     icon: "🏖️",
     title: "3. A Beach Day",
-    text: `
+          image: "/images/beach.jpg",
+  imageAlt: "Beach",
+  text: `
 Choose one of the Mediterranean beaches.
 
 Spend a couple of hours by the sea.

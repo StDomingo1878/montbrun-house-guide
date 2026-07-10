@@ -102,7 +102,7 @@ export const sectionGroups = [
   icon: "🛒",
   title: "Groceries",
   subtitle: "Supermarkets, bakeries, fuel, pharmacy and Sunday chicken",
-    image: "images/grocery.jpg",
+    image: "images/bread.jpg",
   items: groceriesContent
 },
 {
@@ -135,7 +135,7 @@ export const sectionGroups = [
   icon: "🏘️",
   title: "Villages, Towns and Cities",
   subtitle: "Moux, Escales, Lézignan, Narbonne, Carcassonne and more",
-    image: "images/village.jpg",
+    image: "images/beziers.jpg",
   items: villagesContent
 },
 {

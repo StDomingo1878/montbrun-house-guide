@@ -8,32 +8,36 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
 
-      manifest: {
-        name: "Montbrun Companion",
-        short_name: "Montbrun",
-        start_url: "/",
-        display: "standalone",
-        theme_color: "#f4efe7",
-        background_color: "#f4efe7",
-        icons: [
-          {
-            src: "/icon-192.png",
-            sizes: "192x192",
-            type: "image/png"
-          },
-          {
-            src: "/icon-512.png",
-            sizes: "512x512",
-            type: "image/png"
-          },
-          {
-            src: "/icon-512-maskable.png",
-            sizes: "512x512",
-            type: "image/png",
-            purpose: "maskable"
-          }
-        ]
-      },
+manifest: {
+  name: "Montbrun Companion",
+  short_name: "Montbrun",
+  description: "Your guide to the house and the local area.",
+  id: "/",
+  start_url: "/",
+  scope: "/",
+  display: "standalone",
+  background_color: "#f5f2ea",
+  theme_color: "#6b7a4d",
+  orientation: "portrait-primary",
+  icons: [
+    {
+      src: "/icon-192.png",
+      sizes: "192x192",
+      type: "image/png"
+    },
+    {
+      src: "/icon-512.png",
+      sizes: "512x512",
+      type: "image/png"
+    },
+    {
+      src: "/icon-512-maskable.png",
+      sizes: "512x512",
+      type: "image/png",
+      purpose: "maskable"
+    }
+  ]
+},
 
       workbox: {
         maximumFileSizeToCacheInBytes: 100 * 1024 * 1024,

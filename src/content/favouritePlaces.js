@@ -3,13 +3,9 @@ export const favouritePlacesContent = [
     icon: "❤️",
     title: "Our Favourite Places",
     text: `
-People often ask us what they absolutely shouldn't miss while they're here.
+Here is a list of things you shouldn't miss while you're here.
 
-The truth is, there isn't a single "must-see".
-
-Some of our favourite memories have come from the simplest days.
-
-If we had a week in Montbrun, these are the experiences we'd probably choose.
+If we had a week in Montbrun, these are the days we'd probably choose.
 `
   },
 
@@ -25,14 +21,14 @@ Choose a local wine.
 
 Head back to the terrace.
 
-Sometimes the simplest lunches become the most memorable.
 `
   },
 
   {
     icon: "🏛️",
     title: "2. A Morning in Narbonne",
-    text: `
+      image: "/images/market.jpg",
+  imageAlt: "les halles",text: `
 Start at Les Halles covered market.
 
 Browse the food stalls.
@@ -41,9 +37,6 @@ Enjoy a coffee.
 
 Wander through the old streets.
 
-Then simply see where the day takes you.
-
-Narbonne never seems to disappoint.
 `
   },
 
@@ -59,7 +52,6 @@ Enjoy a leisurely seafood lunch overlooking the harbour.
 
 Then head home for a late afternoon swim in the pool.
 
-It's one of our favourite combinations.
 `
   },
 
@@ -75,7 +67,6 @@ Or better still...
 
 Buy a 5-litre Bag-in-Box from Moux.
 
-You'll probably be pleasantly surprised.
 `
   },
 
@@ -93,7 +84,6 @@ Buy an ice cream.
 
 Take photographs.
 
-Those unplanned days often become the ones you'll remember most.
 `
   },
 
@@ -101,9 +91,6 @@ Those unplanned days often become the ones you'll remember most.
     icon: "🌅",
     title: "6. Do Absolutely Nothing",
     text: `
-This might be our favourite recommendation of all.
-
-Some days we never leave the house.
 
 Breakfast on the terrace.
 
@@ -115,7 +102,6 @@ Perhaps a short walk through the vineyards.
 
 Then dinner outside with a bottle of local wine as the sun disappears behind the vines.
 
-Those are often the days we treasure most.
 `
   },
 
@@ -123,9 +109,7 @@ Those are often the days we treasure most.
     icon: "❤️",
     title: "One Final Thought",
     text: `
-Don't worry about trying to see everything.
-
-The Corbières isn't a place to rush.
+Don't worry about trying to see everything. The Languedoc isn't a place to rush.
 
 Slow down.
 

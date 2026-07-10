@@ -22,10 +22,8 @@ The kitchen has everything you should need for everyday cooking, including:
 - Toaster
 - Pots, pans and cooking utensils
 - Crockery, glasses and cutlery
-
-Tea towels and washing-up liquid are under the sink.
-
-**Please note:** there isn't a dishwasher.
+- Tea towels and washing-up liquid are under the sink.
+- **Please note:** there isn't a dishwasher.
 
 Although there isn't a conventional oven, you'll probably find yourselves using the Ninja Woodfire outside for many meals (see **Outside the House**).
 
@@ -129,7 +127,7 @@ Once you've switched it on when you arrive, you shouldn't need to do anything el
 
 Before you leave, please remember to switch it off again so we're not heating water unnecessarily while the house is empty.
 
-There can sometimes be a short delay before hot water reaches the tap. Don't worry—just give it a few seconds.
+There can sometimes be a short delay before the water reaches the tap. Don't worry—just give it a few seconds.
 `
   },
 

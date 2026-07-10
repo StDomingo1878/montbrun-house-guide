@@ -11,7 +11,7 @@ Don't feel you need to know anything about wine to enjoy it. The best approach i
 
 🍷 **Jon's Tip**
 
-Some of our happiest evenings here have involved nothing more complicated than a bottle of local wine, a simple meal on the terrace and watching the sun disappear behind the vineyards.
+Enjoy the simple things, such as a bottle of local wine, a simple meal on the terrace and watching the evening arrive.
 `
   },
 
@@ -40,7 +40,7 @@ If you're visiting from the UK, you might instinctively avoid wine in a box.
 
 In France, it's completely different.
 
-**BIB (Bag-in-Box)** wine is incredibly common and often contains very good quality local wine.
+**BIB** (Bag-in-Box) wine is incredibly common and often contains very good quality local wine.
 
 Many local families buy their everyday wine this way.
 
@@ -74,23 +74,20 @@ The staff are usually friendly and happy to help if you'd like a recommendation.
 
 Don't worry if your French isn't perfect.
 
-A smile and "Un rouge, s'il vous plaît" will usually get you started.
+A smile and "vin rouge, s'il vous plaît" will usually get you started.
 `
   },
 
   {
     icon: "🍇",
     title: "Visiting Vineyards",
-    text: `
+          image: "/images/wine2.jpg",
+  imageAlt: "roc",text: `
 Many vineyards welcome visitors for tastings.
 
 Some are large and modern, while others are tiny family-run businesses that have been making wine for generations.
 
-If you see a sign saying **Dégustation**, it simply means **wine tasting**.
-
-Most tastings are relaxed and informal, with no pressure to buy.
-
-If you do find something you enjoy, buying a bottle or two is always appreciated.
+If you see a sign saying **Dégustation**, it simply means **wine tasting**. Most tastings are relaxed and informal, with no pressure to buy. If you do find something you enjoy, buying a bottle or two is always appreciated.
 `
   },
 
@@ -122,9 +119,7 @@ Pick up some local cheese and charcuterie.
 
 Choose a bottle of Corbières.
 
-Head back to the terrace.
-
-That's about as perfect an evening as we can imagine.
+Head back to the terrace. Perfect!
 `
   }
 ];

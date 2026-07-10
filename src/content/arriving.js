@@ -20,7 +20,7 @@ If you're arriving from the north or east, this video shows the final few minute
 
   {
     icon: "🚗",
-    title: "Arriving from Carcassonne",
+    title: "Arriving from Carcassonne / Toulouse",
     text: `
 If you're arriving from the west, this video shows the final few minutes of the journey into Montbrun.
 `,
@@ -76,7 +76,7 @@ The shutters make a huge difference during the summer, helping to keep the house
     icon: "🌿",
     title: "Kate's Tip",
     text: `
-Once you've unpacked, we'd recommend resisting the temptation to rush straight back out. Put the kettle on (or open a bottle of local wine!), take a seat on the terrace for ten minutes and simply enjoy the peace and quiet.
+Once you've unpacked, why not resist the temptation to rush straight back out. Put the kettle on (or open a bottle of local wine!), take a seat on the terrace for ten minutes and simply enjoy the peace and quiet.
 `
   }
 ];

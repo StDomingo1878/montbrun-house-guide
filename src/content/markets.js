@@ -3,7 +3,7 @@ export const marketsContent = [
     icon: "🧺",
     title: "Markets",
     text: `
-If there's one thing we'd encourage you to do while you're here, it's visit a French market.
+We'd definitely encourage you to visit a French market while you're here.
 
 Whether you're buying fresh fruit, local cheese, olives, charcuterie or simply wandering around with a coffee in hand, markets are a wonderful way to experience everyday life in the south of France.
 
@@ -22,7 +22,9 @@ These are the markets we'd start with if you're staying locally.
   {
     icon: "🏛️",
     title: "Narbonne Market",
-    text: `
+      image: "/images/market.jpg",
+  imageAlt: "The covered market at Les Halles in Narbonne",
+  text: `
 If you only visit one market during your stay, we'd recommend **Narbonne**, especially the covered market, **Les Halles**.
 
 Inside you'll find butchers, fishmongers, cheesemongers, bakers, wine merchants and delicatessens, while outside the surrounding streets are often filled with additional market stalls.
@@ -83,15 +85,9 @@ If you're planning a day out, it's worth checking whether there's a market takin
     icon: "📅",
     title: "Market Planner",
     text: `
-| Day | Market | Note |
-|---|---|---|
-| Monday |  |  |
-| Tuesday |  |  |
-| Wednesday | Lézignan-Corbières |  |
-| Thursday | Narbonne |  |
-| Friday |  |  |
-| Saturday | Narbonne / Carcassonne |  |
-| Sunday |  |  |
+- Wednesday: Lézignan-Corbières
+- Thursday: Narbonne
+- Saturday: Narbonne / Carcassonne
 `
   }
 ];

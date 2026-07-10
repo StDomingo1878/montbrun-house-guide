@@ -3,7 +3,7 @@ export const restaurantsContent = [
     icon: "🍽️",
     title: "Restaurants & Cafés",
     text: `
-Whether you're looking for a leisurely lunch in a village square, fresh seafood by the Mediterranean or a relaxed evening meal after a day exploring, there's no shortage of excellent places to choose from.
+Whether you're looking for a leisurely lunch in a village square, fresh seafood by the Mediterranean or a relaxed evening meal after a day exploring, there's plenty of excellent places to choose from.
 
 These are the restaurants we've enjoyed ourselves and would happily return to. We're sure you'll discover plenty of your own favourites too.
 
@@ -13,7 +13,7 @@ During July and August, the more popular restaurants can become busy, particular
 
 Don't be afraid to try the **Menu du Jour** if you see one.
 
-It's the set menu of the day, usually made using fresh seasonal ingredients, and it's often the best value — and sometimes the best meal — on the menu.
+It's the set menu of the day, usually made using fresh seasonal ingredients, and it's often the best value (and sometimes the best meal) on the menu.
 
 Many restaurants have a good value lunch special, often two or three courses with wine.
 `
@@ -71,7 +71,8 @@ The ratatouille galette is excellent, and a bolée of cider always goes down wel
   {
     icon: "🐟",
     title: "For Seafood",
-    text: `
+          image: "/images/pacheline.jpg",
+  imageAlt: "oysters",text: `
 **La Pacheline, Marseillan — approx. 70 minutes**
 
 This one is a bit more of a drive, but definitely worth it.
@@ -129,6 +130,7 @@ The restaurant is also happy to cater for gluten-free.
 - Friendly, relaxed atmosphere
 - Gluten-free options
 
+ 
 🍜 **Jon's Tip**
 
 If you enjoy spicy food, order the pork bibimbap.

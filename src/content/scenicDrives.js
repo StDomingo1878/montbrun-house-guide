@@ -9,7 +9,7 @@ Sometimes the best part of the day isn't where you're going...
 
 This region is full of quiet roads winding through vineyards, forests, medieval villages and mountain scenery.
 
-Don't always follow the fastest route. Some of our favourite discoveries have happened simply because we took the smaller road instead.
+Don't always follow the fastest route. Sometimes the backroads can be more enjoyable.
 `
   },
 
@@ -21,8 +21,6 @@ Drive through the vineyards surrounding Montbrun, Escales, Moux and neighbouring
 
 Almost every bend reveals another vineyard, another stone village or another beautiful view.
 
-It's impossible to get lost in any meaningful sense, and that's part of the fun.
-
 🍷 Stop whenever a vineyard catches your eye.
 `
   },
@@ -30,6 +28,8 @@ It's impossible to get lost in any meaningful sense, and that's part of the fun.
   {
     icon: "🏰",
     title: "Cathar Country",
+     image: "/images/cathar.jpg",
+  imageAlt: "abbey",
     text: `
 The Corbières is famous for its dramatic Cathar castles.
 
@@ -74,29 +74,7 @@ before returning home through the vineyards.
 `
   },
 
-  {
-    icon: "📷",
-    title: "Stop Often",
-    text: `
-One of the nicest things about driving here is that there's very little traffic once you leave the main roads.
 
-If you see a beautiful view...
 
-...stop.
 
-Some of our favourite photographs have been taken from tiny lay-bys that weren't marked on any map.
-`
-  },
-
-  {
-    icon: "❤️",
-    title: "Our Favourite Drive",
-    text: `
-If we have no particular destination in mind, we'll often simply head out into the vineyards with no plan at all.
-
-We'll stop for coffee in a village we've never visited before, browse a market if we happen to find one, pick up a bottle of local wine and eventually find our way home.
-
-Those unplanned days often become the most memorable.
-`
-  }
 ];

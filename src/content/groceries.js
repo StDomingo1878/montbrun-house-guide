@@ -43,8 +43,6 @@ So you'll have plenty of choice depending on what you're looking for.
     icon: "🥐",
     title: "Bakeries",
     text: `
-One of the pleasures of being in France is buying fresh bread and pastries.
-
 You can find great bakery items in Escales, Moux, or in numerous places in Lézignan.
 
 Almost every nearby town has an excellent boulangerie, so it's well worth picking up a fresh baguette or a few croissants in the morning.
@@ -61,7 +59,7 @@ It's one of those little things that makes a holiday in France feel properly Fre
     icon: "🍗",
     title: "Rotisserie Chicken",
     text: `
-One of our favourite Sunday traditions is enjoying a fresh rotisserie chicken for lunch.
+One thing that has already become a Chivers Sunday traditions is enjoying a fresh rotisserie chicken for lunch.
 
 On Sunday mornings, many butchers and food shops prepare beautifully cooked roast chickens, often served with roasted potatoes or other side dishes.
 
@@ -80,7 +78,7 @@ It doesn't get much better than that.
 
 If you're staying over a weekend, we'd definitely recommend trying this at least once.
 
-It's simple, delicious and feels wonderfully French. We usually order a chicken with roast potatoes, pick up a fresh baguette on the way home, open a chilled bottle of local wine and let someone else do the cooking for a change.
+It's simple, delicious and feels wonderfully French. We usually order a chicken with roast potatoes and maybe a side dish, pick up a fresh baguette on the way home, open a chilled bottle of local wine and let someone else do the cooking for a change.
 `
   },
 

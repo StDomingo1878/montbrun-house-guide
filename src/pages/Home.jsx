@@ -6,9 +6,19 @@ import { sectionGroups } from "../data/guideContent";
 function Home() {
  
 const [activeSection, setActiveSection] = useState(null);
+const allSections = sectionGroups.flatMap((group) => group.sections);
+const activeSectionIndex = activeSection
+  ? allSections.findIndex((section) => section.id === activeSection.id)
+  : -1;
+
+const nextSection =
+  activeSectionIndex >= 0 && activeSectionIndex < allSections.length - 1
+    ? allSections[activeSectionIndex + 1]
+    : null;
 const openSection = (section) => {
   setActiveSection(section);
   window.history.pushState({ sectionId: section.id }, "", `#${section.id}`);
+  window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
 useEffect(() => {
@@ -34,7 +44,12 @@ const goBack = () => {
         </button>
 
         <header className="section-header">
-          <div className="section-hero-image"></div>
+          <div
+  className="section-hero-image"
+  style={{
+    backgroundImage: `url(${activeSection.image})`
+  }}
+></div>
           <div className="section-icon">{activeSection.icon}</div>
           <h1>{activeSection.title}</h1>
           <p>{activeSection.subtitle}</p>
@@ -47,6 +62,14 @@ const goBack = () => {
         {item.icon && <span className="guide-item-icon">{item.icon}</span>}
         {item.title}
       </h2>
+  {item.image && (
+  <img
+    className="guide-item-image"
+    src={item.image}
+    alt={item.imageAlt || item.title}
+    loading="lazy"
+  />
+)}
   <div className="markdown">
   <ReactMarkdown>{item.text}</ReactMarkdown>
 </div>
@@ -74,6 +97,25 @@ const goBack = () => {
 )}</article>
           ))}
         </section>
+        {nextSection && (
+  <section className="next-section">
+    <p className="next-section-label">Up next</p>
+
+    <button
+      className="next-section-button"
+      onClick={() => openSection(nextSection)}
+    >
+      <span className="next-section-icon">{nextSection.icon}</span>
+
+      <span className="next-section-text">
+        <strong>{nextSection.title}</strong>
+        <small>{nextSection.subtitle}</small>
+      </span>
+
+      <span className="next-section-arrow">→</span>
+    </button>
+  </section>
+)}
       </main>
     );
   }

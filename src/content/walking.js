@@ -13,7 +13,7 @@ One of the things we love most is how peaceful it is. Even in the height of summ
     icon: "🍇",
     title: "Walk from the House",
     text: `
-One of the simplest pleasures is to head out from the front door and wander through the vineyards.
+It's lovely to head out from the front door and wander through the vineyards.
 
 There are numerous quiet lanes and farm tracks around Montbrun, and it's difficult to go too far wrong.
 
@@ -25,9 +25,6 @@ The views constantly change with the seasons:
 
 🍇 Autumn – grape harvest
 
-❄️ Winter – peaceful countryside and crisp skies
-
-It's the perfect way to start or end the day.
 `
   },
 
@@ -75,34 +72,18 @@ Some stretches seem to go on forever.
 `
   },
 
-  {
-    icon: "🥾",
-    title: "What to Bring",
-    text: `
-For most local walks you'll only need:
 
-- Comfortable shoes
-- Water
-- Sun hat
-- Sun cream
-
-The summer sun can be surprisingly strong, even if there's a breeze.
-
-If you're heading into the mountains, take a little extra water and check the weather before you set off.
-`
-  },
 
   {
     icon: "❤️",
     title: "Our Favourite Walk",
-    text: `
+      image: "/images/montbrunwalk.jpg",
+  imageAlt: "walk",
+  text: `
 One of our favourite things to do is simply wander out into the vineyards in the early evening.
 
 As the temperature begins to fall, the light softens across the vines and the sound of the cicadas gradually gives way to the evening chorus.
 
-There's no destination...
-
-...just the pleasure of being there.
 `
   }
 ];

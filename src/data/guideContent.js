@@ -29,6 +29,7 @@ export const sectionGroups = [
         icon: "🏡",
         title: "Welcome to Montbrun",
         subtitle: "Start here and get to know Montbrun.",
+        image: "images/welcome.jpg",
         items: welcomeContent,
       },      
       {
@@ -36,6 +37,7 @@ export const sectionGroups = [
         icon: "🔑",
         title: "Key Info at a Glance",
         subtitle: "Essential information",
+          image: "images/info.jpg",
         items: keyInfoContent,
       },
       {
@@ -43,6 +45,7 @@ export const sectionGroups = [
         icon: "✈️",
         title: "Before You Travel",
         subtitle: "Flights, car hire, parking and weather",
+          image: "images/before.jpg",
         items: beforeTravelContent,
       },
       { 
@@ -50,6 +53,7 @@ export const sectionGroups = [
         icon: "🚗", 
         title: "Arriving", 
         subtitle: "Finding the house, parking, key safe, hot water and shutters", 
+          image: "images/arriving.jpg",
         items: arrivingContent, 
       },
       {
@@ -57,6 +61,7 @@ export const sectionGroups = [
         icon: "🏡",
         title: "Inside the House",
         subtitle: "Kitchen, sofa bed, air conditioning and practical bits",
+          image: "images/inside.jpg",
         items: insideHouseContent,
       },
       {
@@ -64,6 +69,7 @@ export const sectionGroups = [
         icon: "🌿",
         title: "Outside the House",
         subtitle: "Pool, garden, outdoor cooking and terrace living",
+          image: "images/outside.jpg",
         items: outsideHouseContent
       },
 
@@ -72,6 +78,7 @@ export const sectionGroups = [
         icon: "🧹",
         title: "Housekeeping",
         subtitle: "Looking after the house during your stay",
+          image: "images/housekeeping.jpg",
         items: housekeepingContent
       },
     ],
@@ -87,6 +94,7 @@ export const sectionGroups = [
   icon: "🌿",
   title: "The Area",
   subtitle: "Vineyards, villages, beaches and the rhythm of southern France",
+    image: "images/area.jpg",
   items: areaContent
 },
 {
@@ -94,6 +102,7 @@ export const sectionGroups = [
   icon: "🛒",
   title: "Groceries",
   subtitle: "Supermarkets, bakeries, fuel, pharmacy and Sunday chicken",
+    image: "images/grocery.jpg",
   items: groceriesContent
 },
 {
@@ -101,6 +110,7 @@ export const sectionGroups = [
   icon: "🧺",
   title: "Markets",
   subtitle: "Fresh food, local produce and morning market tips",
+    image: "images/market.jpg",
   items: marketsContent
 },
 {
@@ -108,6 +118,7 @@ export const sectionGroups = [
   icon: "🍽️",
   title: "Restaurants",
   subtitle: "Relaxed meals, crêpes, seafood and local favourites",
+    image: "images/rest.jpg",
   items: restaurantsContent
 },
 {
@@ -115,6 +126,8 @@ export const sectionGroups = [
   icon: "🍷",
   title: "Wine",
   subtitle: "Vineyards, tastings, Corbières, Minervois and BIB wine",
+  image: "images/wine.jpg",
+    image: "images/wine.jpg",
   items: wineContent
 },
 {
@@ -122,6 +135,7 @@ export const sectionGroups = [
   icon: "🏘️",
   title: "Villages, Towns and Cities",
   subtitle: "Moux, Escales, Lézignan, Narbonne, Carcassonne and more",
+    image: "images/village.jpg",
   items: villagesContent
 },
 {
@@ -129,6 +143,7 @@ export const sectionGroups = [
   icon: "🏖️",
   title: "Beaches",
   subtitle: "Mediterranean beach days within easy reach",
+    image: "images/beach.jpg",
   items: beachesContent
 },
 {
@@ -136,6 +151,7 @@ export const sectionGroups = [
   icon: "🚗",
   title: "Scenic Drives",
   subtitle: "Vineyards, mountains, coast roads and medieval villages",
+    image: "images/scenic.jpg",
   items: scenicDrivesContent
 },
 {
@@ -143,6 +159,7 @@ export const sectionGroups = [
   icon: "🚶",
   title: "Walking",
   subtitle: "Village strolls, vineyard walks and the Black Mountains",
+    image: "images/area.jpg",
   items: walkingContent
 },
 {
@@ -150,6 +167,7 @@ export const sectionGroups = [
   icon: "❤️",
   title: "Favourite Places",
   subtitle: "The places we'd recommend above all others",
+    image: "images/oyst.jpg",
   items: favouritePlacesContent
 },
     ],
@@ -165,6 +183,7 @@ export const sectionGroups = [
         icon: "✅",
         title: "Before You Leave",
         subtitle: "A simple checklist before heading home",
+        image: "images/before.jpg",
         items: beforeLeaveContent
 },
     ],
@@ -176,7 +195,7 @@ export const sectionGroups = [
     subtitle: "Emergency contacts and practical help.",
     sections: [
       { 
-        id: "emergencies", icon: "☎️", title: "Emergencies", subtitle: "Emergency services, medical assistance, house contacts and utilities", items: emergenciesContent },
+        id: "emergencies", icon: "☎️", title: "Emergencies", subtitle: "Emergency services, medical assistance, house contacts and utilities",   image: "images/wine.jpg", items: emergenciesContent },
     ],
   },
 ];

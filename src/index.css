@@ -290,3 +290,73 @@ button {
   font-size: 0.9rem;
   text-align: center;
 }
+.guide-item-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0.75rem 0 1rem;
+  border-radius: 16px;
+  object-fit: cover;
+}
+.next-section {
+  max-width: 760px;
+  margin: 2rem auto 3rem;
+  padding: 0 1rem;
+}
+
+.next-section-label {
+  margin: 0 0 0.6rem;
+  color: #6d746d;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.next-section-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border: 0;
+  border-radius: 18px;
+  background: #f4efe7;
+  color: #243025;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 5px 18px rgba(36, 48, 37, 0.08);
+}
+
+.next-section-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(36, 48, 37, 0.12);
+}
+
+.next-section-icon {
+  flex: 0 0 auto;
+  font-size: 1.8rem;
+}
+
+.next-section-text {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.next-section-text strong {
+  font-size: 1rem;
+}
+
+.next-section-text small {
+  color: #677067;
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
+.next-section-arrow {
+  flex: 0 0 auto;
+  font-size: 1.4rem;
+}

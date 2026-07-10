@@ -63,7 +63,9 @@ It's a great choice if you want to combine a swim with lunch or simply enjoy a s
   {
     icon: "☀️",
     title: "Sérignan Plage",
-    text: `
+     image: "/images/serignan.jpg",
+  imageAlt: "beach",
+  text: `
 **Approx. 50 minutes**
 
 A beautiful stretch of coastline with a slightly quieter feel.

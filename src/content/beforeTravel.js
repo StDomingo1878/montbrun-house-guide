@@ -26,24 +26,7 @@ Depending on insurance arrangements, you may be able to use our Opel Crossland A
 `
   },
 
-  {
-    icon: "🅿️",
-    title: "Blue Zone parking (Zone Bleue)",
-    text: `
-Many of the parking spaces in the centre of Lézignan-Corbières (and other towns) are part of the **Blue Zone parking scheme**. The good news is that parking is free, you simply need to display a blue parking disc showing the time you arrived.
 
-We've left a Blue Zone parking disc in the house for you to use during your stay. Please remember to return it before you leave, as it's useful for future guests.
-
-To use it:
-1.	Park in a space marked as a Zone Bleue.
-2.	Set the blue disc to show your arrival time (rounding up to the next half hour if required).
-3.	Display the disc clearly on the dashboard where it can be easily seen through the windscreen.
-4.	Check the nearby signs, which will tell you the maximum parking time and the hours when the restrictions apply.
-
-Outside the signed Blue Zone hours, you can usually park without using the disc.
-
-`
-  },
 
   {
     icon: "☀️",

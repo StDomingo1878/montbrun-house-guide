@@ -13,14 +13,15 @@ If you're ever unsure or need help, please don't hesitate to contact us.
     icon: "☎️",
     title: "Emergency Numbers",
     text: `
-| Service | Number |
-|---------|-------:|
-| **European Emergency (all services)** | **112** |
-| Ambulance (SAMU) | 15 |
-| Police | 17 |
-| Fire & Rescue | 18 |
+**European Emergency (all services): 112**
 
-**Even if you don't have a mobile signal, it's worth trying 112 as your phone may connect using any available network.**
+Ambulance (SAMU): 15
+
+Police: 17
+
+Fire & Rescue: 18
+
+Even if you don't have a mobile signal, it's worth trying 112 as your phone may connect using any available network.
 `
   },
 

@@ -2,7 +2,8 @@ export const areaContent = [
   {
     icon: "🌿",
     title: "The Area",
-    text: `
+          image: "/images/scenic.jpg",
+  imageAlt: "roquebrun",text: `
 One of the things we love most about this house is its location.
 
 Montbrun-des-Corbières is a tiny, peaceful village surrounded by vineyards, olive trees and rolling countryside. There are no cafés or shops in the village itself, but that's exactly why we chose it.
@@ -25,7 +26,7 @@ One of the biggest differences between life in France and the UK is the rhythm o
 
 Things don't run 24/7, and after a day or two you'll probably find yourself slowing down and enjoying it too.
 
-Many shops and businesses close for lunch, typically between **12h00 and 14h00** — sometimes a little longer. It's perfectly normal to find the local hardware shop, bakery or even the pharmacy closed in the middle of the day.
+Most shops and businesses close for lunch, typically between **12h00 and 14h00** — sometimes a little longer. It's perfectly normal to find the local hardware shop, bakery or even the pharmacy closed in the middle of the day.
 
 Restaurants work the opposite way. Most are open for lunch, usually serving from around **12h00 until 14h00**, before closing during the afternoon. Many don't reopen until around **19h00** for evening service.
 
@@ -37,9 +38,7 @@ The easiest approach is simply to plan ahead. If you know you'll need groceries 
 
 🌿 **Jon & Kate's Tip**
 
-At first it can feel a little inconvenient if you're used to shops being open all day, every day.
-
-But we've come to love it.
+At first it can feel a little inconvenient if you're used to shops being open all day, every day. But we've come to love it.
 
 The French place a real value on taking time for lunch, spending time with family and enjoying a better work-life balance. Once you stop fighting the rhythm and embrace it, it becomes one of the nicest parts of being here.
 `

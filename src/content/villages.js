@@ -29,13 +29,7 @@ There aren't any shops or cafés here, but that's part of its charm.
     text: `
 Only a few minutes away, Moux is our nearest village for everyday essentials.
 
-You'll find:
-
-- Village shop
-- Bakery
-- Coffee
-- Local wine
-- Sunday rotisserie chickens (order in advance!)
+You'll find a village shop doing, bakery, coffee, local wine, and Sunday rotisserie chickens (order in advance!). They even have a small outdoor seated area for enjoying a coffee and pastry or whatever.
 
 It's a great place to pop to first thing in the morning for fresh bread and pastries.
 `
@@ -64,9 +58,7 @@ Although it's not a tourist destination, it's a very useful town and well worth 
     icon: "🏛️",
     title: "Narbonne",
     text: `
-Narbonne is probably our favourite nearby city.
-
-It's elegant without feeling crowded and has just the right balance of history, shopping and great food.
+Narbonne is elegant without feeling crowded and has just the right balance of history, shopping and great food.
 
 Don't miss:
 
@@ -76,16 +68,14 @@ Don't miss:
 - Outdoor cafés
 - Independent shops
 
-❤️ **Our Recommendation**
-
-If you're only visiting one town during your stay, make it Narbonne.
 `
   },
 
   {
     icon: "🏰",
     title: "Carcassonne",
-    text: `
+          image: "/images/carcassonne.jpg",
+  imageAlt: "cite",text: `
 The medieval citadel at Carcassonne is one of France's most famous attractions.
 
 It's absolutely worth visiting, especially if it's your first time.
@@ -103,7 +93,8 @@ It's touristy...
   {
     icon: "⚓",
     title: "Marseillan",
-    text: `
+          image: "/images/marseillan.jpg",
+  imageAlt: "harbour",text: `
 A lovely harbour town on the Mediterranean.
 
 Perfect for:
@@ -135,29 +126,4 @@ A lovely place for a relaxed afternoon.
 `
   },
 
-  {
-    icon: "💡",
-    title: "Our Advice",
-    text: `
-Don't try to cram too much into each day.
-
-One village.
-
-A long lunch.
-
-A stroll.
-
-An ice cream.
-
-A glass of local wine.
-
-That's often a better day than racing between five different places.
-
-🌿 **Jon & Kate's Tip**
-
-Slow down.
-
-That's exactly what holidays here are all about.
-`
-  }
 ];

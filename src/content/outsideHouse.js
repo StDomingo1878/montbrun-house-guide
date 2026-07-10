@@ -14,6 +14,8 @@ We hope you'll enjoy it just as much.
   {
     icon: "🏊",
     title: "Pool",
+      image: "/images/info.jpg",
+  imageAlt: "local wine in the pool",
     text: `
 The pool is designed for relaxing rather than swimming. It's the perfect place to cool off after a day exploring the local area, or simply to spend a lazy afternoon with a book.
 
@@ -35,8 +37,6 @@ If you'd like the pool to be a little warmer, just let us know and we'll happily
     icon: "🔥",
     title: "Outdoor Cooking",
     text: `
-One of our favourite things about staying here is cooking outside.
-
 The Ninja Woodfire can be used as a grill, smoker or air fryer, and is our main form of cooking when we're there.
 
 Occasionally the unit won't switch on immediately. If that happens, simply press the small **RESET** button on the plug and it should be fine.
@@ -88,14 +88,12 @@ All of the keys are labelled.
   {
     icon: "🍷",
     title: "Dinner on the Terrace",
-    text: `
-One of our favourite evenings is to fire up the Ninja Woodfire, pick up a bottle from a local vineyard and have dinner on the terrace as the temperature begins to cool.
+          image: "/images/terrace.jpeg",
+  imageAlt: "dinner on the terrace",text: `
+A lovely evening is to fire up the Ninja Woodfire, pick up a bottle from a local vineyard and have dinner on the terrace as the temperature begins to cool.
 
 Good food, good wine, good conversation — all against the backdrop of the bush crickets chorus.
 
-🍷 **Jon & Kate's Tip**
-
-This is exactly the kind of evening the house was made for.
 `
   },
 

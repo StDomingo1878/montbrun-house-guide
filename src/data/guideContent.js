@@ -37,7 +37,7 @@ export const sectionGroups = [
         icon: "🔑",
         title: "Key Info at a Glance",
         subtitle: "Essential information",
-          image: "images/info.jpg",
+          image: "images/info2.jpg",
         items: keyInfoContent,
       },
       {

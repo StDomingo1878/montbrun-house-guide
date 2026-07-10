@@ -72,7 +72,8 @@ The ratatouille galette is excellent, and a bolée of cider always goes down wel
     icon: "🐟",
     title: "For Seafood",
           image: "/images/pacheline.jpg",
-  imageAlt: "oysters",text: `
+  imageAlt: "oysters",
+  text: `
 **La Pacheline, Marseillan — approx. 70 minutes**
 
 This one is a bit more of a drive, but definitely worth it.
@@ -108,7 +109,9 @@ Good coffee, an outdoor seating area, nice pastries, and you can pick up a few g
   {
     icon: "🍜",
     title: "Something Different",
-    text: `
+              image: "/images/kimchi.jpg",
+  imageAlt: "GSH",
+  text: `
 **Kimch'i, Lézignan-Corbières**
 
 If you're in the mood for something a little different, we'd highly recommend Kimch'i, a small Korean restaurant in Lézignan-Corbières.

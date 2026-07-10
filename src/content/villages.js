@@ -93,7 +93,7 @@ It's touristy...
   {
     icon: "⚓",
     title: "Marseillan",
-          image: "/images/marseillan.jpg",
+          image: "/images/marseillan2.jpg",
   imageAlt: "harbour",text: `
 A lovely harbour town on the Mediterranean.
 

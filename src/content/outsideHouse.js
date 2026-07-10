@@ -60,7 +60,9 @@ There's also some colourful lights beneath the awning.
   {
     icon: "🌳",
     title: "Garden",
-    text: `
+              image: "/images/gardenvine.jpg",
+  imageAlt: "Vine in the garden",
+  text: `
 Please enjoy the garden — it's one of the nicest places to spend time, whether you're having breakfast, reading a book or simply watching the sun set over the vineyards.
 
 The garden is looked after by Florent, who visits periodically throughout the year. Don't be surprised if he pops in while you're staying; he'll simply get on with whatever needs doing.
@@ -89,7 +91,8 @@ All of the keys are labelled.
     icon: "🍷",
     title: "Dinner on the Terrace",
           image: "/images/terrace.jpeg",
-  imageAlt: "dinner on the terrace",text: `
+  imageAlt: "dinner on the terrace",
+  text: `
 A lovely evening is to fire up the Ninja Woodfire, pick up a bottle from a local vineyard and have dinner on the terrace as the temperature begins to cool.
 
 Good food, good wine, good conversation — all against the backdrop of the bush crickets chorus.

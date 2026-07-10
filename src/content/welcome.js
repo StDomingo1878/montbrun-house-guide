@@ -2,7 +2,9 @@ export const welcomeContent = [
   {
     icon: "👋",
     title: "Welcome",
-    text: `
+              image: "/images/keys.jpg",
+  imageAlt: "the day we got the keys",
+  text: `
 Welcome to Mourrel de Goudy, our little corner of southern France.
 
 We're so pleased you're here, and we hope you enjoy the house and the surrounding area as much as we do. Although we're sharing it with family and friends, this isn't a holiday rental, it's our second home. We've tried to create somewhere that's comfortable, peaceful and somewhere we'd genuinely love to spend time ourselves. We hope you'll quickly feel at home too.
@@ -24,6 +26,8 @@ Jon & Kate
   {
     icon: "🏠",
     title: "A little bit about the house (so you know what to expect)",
+          image: "/images/bedroom.jpg",
+  imageAlt: "main bedroom",
     text: `
 The house is a compact, comfortable Mediterranean home that's designed for slowing down and enjoying the simple things. It's perfect for a morning coffee on the terrace, long lunches in the shade, an afternoon by the pool and evenings with a glass of local wine as the sun goes down.
 

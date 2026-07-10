@@ -77,7 +77,7 @@ Some stretches seem to go on forever.
   {
     icon: "❤️",
     title: "Our Favourite Walk",
-      image: "/images/montbrunwalk.jpg",
+      image: "/images/montwalk.jpg",
   imageAlt: "walk",
   text: `
 One of our favourite things to do is simply wander out into the vineyards in the early evening.

@@ -111,7 +111,7 @@ Good coffee, an outdoor seating area, nice pastries, and you can pick up a few g
   {
     icon: "🍜",
     title: "Something Different",
-              image: "/images/kimchi.jpg",
+              image: "/images/kimchi2.jpg",
   imageAlt: "GSH",
   text: `
 **Kimch'i, Lézignan-Corbières**

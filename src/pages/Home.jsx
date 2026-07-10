@@ -3,10 +3,21 @@ import { useEffect, useState } from "react";
 import HomeCard from "../components/HomeCard";
 import { sectionGroups } from "../data/guideContent";
 
+const allSections = sectionGroups.flatMap((group) => group.sections);
+
+function getSectionFromHash() {
+  const sectionId = window.location.hash.replace("#", "");
+
+  if (!sectionId) {
+    return null;
+  }
+
+  return allSections.find((section) => section.id === sectionId) || null;
+}
 function Home() {
  
-const [activeSection, setActiveSection] = useState(null);
-const allSections = sectionGroups.flatMap((group) => group.sections);
+const [activeSection, setActiveSection] = useState(getSectionFromHash);
+
 const activeSectionIndex = activeSection
   ? allSections.findIndex((section) => section.id === activeSection.id)
   : -1;
@@ -23,7 +34,8 @@ const openSection = (section) => {
 
 useEffect(() => {
   const handlePopState = () => {
-    setActiveSection(null);
+    setActiveSection(getSectionFromHash());
+    window.scrollTo({ top: 0 });
   };
 
   window.addEventListener("popstate", handlePopState);
@@ -39,9 +51,16 @@ const goBack = () => {
   if (activeSection) {
     return (
       <main className="section-page">
-        <button className="back-button" onClick={goBack}>
-          ← Back
-        </button>
+<button
+  className="back-button"
+  onClick={() => {
+    setActiveSection(null);
+    window.history.pushState({}, "", window.location.pathname);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }}
+>
+  ← Home
+</button>
 
         <header className="section-header">
           <div

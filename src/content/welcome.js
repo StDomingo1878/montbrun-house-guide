@@ -11,7 +11,8 @@ We're so pleased you're here, and we hope you enjoy the house and the surroundin
 
 Finding this house was the end of a long search. We wanted somewhere surrounded by vineyards and beautiful countryside, but still within easy reach of the Mediterranean coast, traditional markets, historic towns and spectacular scenery. Montbrun-des-Corbières turned out to be exactly what we were looking for. It’s still very new to us and we’re loving discovering new gems each time we visit.
 
-This guide is designed to help you make the most of your stay. It covers everything from how the house works to some of our favourite places to eat, drink and explore. Throughout the guide you'll also find some tips and recommendations.
+This guide is designed to help you make the mnpm run dev
+ost of your stay. It covers everything from how the house works to some of our favourite places to eat, drink and explore. Throughout the guide you'll also find some tips and recommendations.
 
 Most importantly, relax. Pour yourself a glass of local wine, sit out on the terrace, listen to the birds and enjoy the slower pace of life.
 

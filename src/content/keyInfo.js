@@ -7,7 +7,7 @@ export const keyInfoContent = [
 11700 Montbrun-des-Corbières  
 France
 
-If you're using SatNav or Google Maps, it's worth watching the arrival videos in Part 4 for the last few minutes of the journey, as navigation systems don't always choose the easiest route through the village.
+If you're using SatNav or Google Maps, it's worth watching the arrival videos the **Arriving** section for the last few minutes of the journey, as navigation systems don't always choose the easiest route through the village.
 `,
     actions: [
       {

@@ -2,6 +2,8 @@ export const restaurantsContent = [
   {
     icon: "🍽️",
     title: "Restaurants & Cafés",
+                      image: "/images/creperie.jpg",
+  imageAlt: "Creperie Bretonne",
     text: `
 Whether you're looking for a leisurely lunch in a village square, fresh seafood by the Mediterranean or a relaxed evening meal after a day exploring, there's plenty of excellent places to choose from.
 
@@ -47,8 +49,8 @@ Hermine is always happy to help with gluten-free and other requirements.
   {
     icon: "🥞",
     title: "For Crêpes",
-                  image: "/images/creperie.jpg",
-  imageAlt: "Creperie Bretonne",
+                  image: "/images/gallette.jpeg",
+  imageAlt: "Gluten Free Gallett",
   text: `
 **La Crêperie Bretonne, Lézignan-Corbières — approx. 10 minutes**
 
@@ -68,6 +70,7 @@ As a bonus, the galettes are made from chestnut flour, so they are gluten-free.
 
 The ratatouille galette is excellent, and a bolée of cider always goes down well with the galettes.
 `
+
   },
 
   {

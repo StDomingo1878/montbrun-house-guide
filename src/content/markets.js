@@ -22,7 +22,7 @@ These are the markets we'd start with if you're staying locally.
   {
     icon: "🏛️",
     title: "Narbonne Market",
-      image: "/images/market.jpg",
+      image: "/images/leshalles1.jpeg",
   imageAlt: "The covered market at Les Halles in Narbonne",
   text: `
 If you only visit one market during your stay, we'd recommend **Narbonne**, especially the covered market, **Les Halles**.
@@ -72,7 +72,8 @@ If you're planning a day out, it's worth checking whether there's a market takin
   {
     icon: "💡",
     title: "Market Tips",
-    text: `
+          image: "/images/leshalles2.jpeg",
+  imageAlt: "The covered market at Les Halles in Narbonne",text: `
 - Arrive early for the freshest produce.
 - Take a reusable shopping bag.
 - Carry a little cash. Many stalls now accept cards, but not all do.

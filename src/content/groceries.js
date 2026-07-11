@@ -2,6 +2,9 @@ export const groceriesContent = [
   {
     icon: "🛒",
     title: "Groceries and Amenities",
+              image: "/images/gourmand.jpeg",
+  imageAlt: "Deli in Lezignan",
+
     text: `
 Everything you need is only a short drive away.
 `
@@ -42,7 +45,9 @@ So you'll have plenty of choice depending on what you're looking for.
   {
     icon: "🥐",
     title: "Bakeries",
-    text: `
+              image: "/images/macaron.jpeg",
+  imageAlt: "Macaron",
+  text: `
 You can find great bakery items in Escales, Moux, or in numerous places in Lézignan.
 
 Almost every nearby town has an excellent boulangerie, so it's well worth picking up a fresh baguette or a few croissants in the morning.

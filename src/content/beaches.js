@@ -79,7 +79,17 @@ If you're looking for a more peaceful beach day away from the busiest resorts, t
 - Natural surroundings
 `
   },
+  {
+    icon: "🏖️",
+    title: "Meze Plage",
+         image: "/images/mezebeach.jpeg",
+  imageAlt: "Meze Beach",
+  text: `
+**Approx. 75 minutes**
 
+KATE TO ADD COPY
+`
+  },
   {
     icon: "💡",
     title: "Kate's Tip",

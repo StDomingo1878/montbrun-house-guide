@@ -82,6 +82,8 @@ When you're in the garden, see if you can spot the horses or hear the donkey, es
     title: "Post",
                   image: "/images/post.jpg",
   imageAlt: "Postbox",
+                image: "/images/post.jpeg",
+  imageAlt: "Post Box",
   text: `
 We'd really appreciate it if you could check the post box once during your stay.
 

@@ -81,13 +81,17 @@ If you're looking for a more peaceful beach day away from the busiest resorts, t
   },
   {
     icon: "🏖️",
-    title: "Meze Plage",
+    title: "Mèze Plage",
          image: "/images/mezebeach.jpeg",
   imageAlt: "Meze Beach",
   text: `
 **Approx. 75 minutes**
 
-KATE TO ADD COPY
+One of Kate's favourites. A small sandy beach with views of Mont Saint-Clair rising behind Sète, one of the area's most distinctive landmarks.
+
+From the beach you can also see the famous oyster and mussel farms scattered across the Étang de Thau (lagoon). 
+
+Then you can take a short stroll to a beautiful harbour, sit, eat and watch the boats come and go.
 `
   },
   {

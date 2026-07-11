@@ -90,7 +90,19 @@ Fresh fish and seafood definitely tastes even better with a sea view.
 It's not cheap, but it's great food and great service.
 `
   },
+  {
+    icon: "🍴",
+    title: "For a Harbour Meal",
+    text: `
+**L'Abri Côtier, Mèze — approx. 75 minutes**
 
+Overlooking Meze harbour, we had a good meal here. The lunchtime special was very reasonable and good quality food..
+
+**Perfect for:**
+
+- Somewhere to get a relaxed lunch overlooking the harbour if you're out this way
+`
+  },
   {
     icon: "🍽️",
     title: "For a Special Meal",

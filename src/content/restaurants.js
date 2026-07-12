@@ -69,10 +69,27 @@ As a bonus, the galettes are made from chestnut flour, so they are gluten-free.
 **Jon's Tip**
 
 The ratatouille galette is excellent, and a bolée of cider always goes down well with the galettes.
-`
-
+`,
+  actions: [
+    {
+      label: "📍 Navigate to Crêperie Bretonne",
+      url: "https://maps.app.goo.gl/6TLSTAbMqQjySsJ16"
+    }
+  ]
   },
-
+{
+  icon: "🥞",
+  title: "Carcassonne Crepes",
+  text: `
+Or if you are in Carcassonne then you can also get a similar style gluten free Galettes from here.
+`,
+  actions: [
+    {
+      label: "📍 Navigate to Bar Restaurant Le Sénéchal",
+      url: "https://maps.app.goo.gl/8p4STVUDHKg2fviH9"
+    }
+  ]
+},
   {
     icon: "🐟",
     title: "For Seafood",
@@ -88,7 +105,13 @@ Marseillan is a great place to visit, and this is our favourite restaurant there
 Fresh fish and seafood definitely tastes even better with a sea view.
 
 It's not cheap, but it's great food and great service.
-`
+`,
+  actions: [
+    {
+      label: "📍 Navigate to La Pacheline",
+      url: "https://maps.app.goo.gl/ZQDSYk5HmDGPq43w8"
+    }
+  ]
   },
   {
     icon: "🍴",
@@ -156,6 +179,12 @@ The restaurant is also happy to cater for gluten-free.
 If you enjoy spicy food, order the pork bibimbap.
 
 It's one of my favourite meals anywhere in the region — packed with flavour and just the right amount of heat.
-`
+`,
+  actions: [
+    {
+      label: "📍 Navigate to Kimch'i",
+      url: "https://maps.app.goo.gl/WxoiijXgQpF5nu76A"
+    }
+  ]
   }
 ];

@@ -42,9 +42,33 @@ Expect:
 - Vineyards
 - Medieval scenery
 - Fantastic viewpoints
+
+
 `
   },
+{
+  icon: "🏰",
+  title: "Official Pays Cathare App",
+  text: `
+If you're planning to explore the region, the official **Pays Cathare** app is worth downloading.
 
+It includes:
+
+- Walking routes
+- Castles
+- Heritage sites
+- Maps
+- Visitor information
+- Local events
+
+`,
+  actions: [
+    {
+      label: "📱 Download for Android",
+      url: "https://play.google.com/store/apps/details?id=io.departementaude.payscathare&pcampaignid=web_share"
+    }
+  ]
+},
   {
     icon: "⛰️",
     title: "The Black Mountains",

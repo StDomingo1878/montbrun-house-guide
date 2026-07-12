@@ -8,6 +8,8 @@ Despite being surrounded by vineyards and peaceful countryside, you're never far
 Within around **45 minutes** you can be swimming in the sea, walking along wide sandy beaches, enjoying lunch overlooking the harbour, or simply watching the world go by with an ice cream.
 
 We've visited several beaches along this stretch of coastline, but these are the ones we find ourselves returning to.
+
+Also, we have **2 beach chairs and parasols** in the garage. These are lightweight, and easy to carry, so please feel free to use them. 
 `
   },
 

@@ -92,7 +92,19 @@ It's touristy...
 ...but for good reason.
 `
   },
-
+{
+  icon: "💡",
+  title: "Sue's Tip",
+  text: `
+When Sue and Abbie visited Carcassonne they parked here, and it worked well. 
+`,
+  actions: [
+    {
+      label: "📍 Open Sue's parking location",
+      url: "https://maps.app.goo.gl/2CVMoFoqpTwrNUDE7"
+    }
+  ]
+},
   {
     icon: "⚓",
     title: "Marseillan",

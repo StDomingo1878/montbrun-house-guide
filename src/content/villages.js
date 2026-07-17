@@ -55,7 +55,27 @@ It has:
 Although it's not a tourist destination, it's a very useful town and well worth exploring beyond the supermarket.
 `
   },
+{
+  icon: "🏘️",
+  title: "Lagrasse",
+            image: "/images/lagrasse.jpg",
+  imageAlt: "Swimming in Lagrasse",
+  text: `
+Lagrasse is officially recognised as one of **Les Plus Beaux Villages de France**—one of France's most beautiful villages.
 
+It's a lovely place to wander, with medieval streets, stone buildings and the impressive Abbaye Sainte-Marie de Lagrasse on the other side of the River Orbieu.
+
+In summer, the river has a supervised swimming area where you can paddle, swim and cool off. There are toilets nearby, and it's especially good for families.
+
+Lagrasse is also a great place to stop for an ice cream and enjoy the riverside setting before heading home.
+`,
+  actions: [
+    {
+      label: "📍 Navigate to Lagrasse",
+      url: "https://maps.app.goo.gl/3j2A8X1eYEcHwzmk8"
+    }
+  ]
+},
   {
     icon: "🏛️",
     title: "Narbonne",

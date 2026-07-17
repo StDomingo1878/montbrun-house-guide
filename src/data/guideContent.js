@@ -17,6 +17,7 @@ import { beachesContent } from "../content/beaches";
 import { scenicDrivesContent } from "../content/scenicDrives";
 import { walkingContent } from "../content/walking";
 import { favouritePlacesContent } from "../content/favouritePlaces";
+import { moreRestaurantsContent } from "../content/moreRestaurants";
 export const sectionGroups = [
   {
     id: "your-stay",
@@ -28,7 +29,7 @@ export const sectionGroups = [
         id: "welcome",
         icon: "🏡",
         title: "Welcome to Montbrun",
-        subtitle: "Start here and get to know Montbrun.",
+        subtitle: "A welcome from Kate and Jon, and a bit about the house.",
         image: "images/welcome.jpg",
         items: welcomeContent,
       },      
@@ -52,15 +53,15 @@ export const sectionGroups = [
         id: "arriving", 
         icon: "🚗", 
         title: "Arriving", 
-        subtitle: "Finding the house, parking, key safe, hot water and shutters", 
+        subtitle: "Finding the house, and what to do on arrival", 
           image: "images/arriving.jpg",
-        items: arrivingContent, 
+        items: arrivingContent,
       },
       {
         id: "inside-house",
         icon: "🏡",
         title: "Inside the House",
-        subtitle: "Kitchen, sofa bed, air conditioning and practical bits",
+        subtitle: "All the practical bits like Air Conditioning, laundry etc",
           image: "images/inside.jpg",
         items: insideHouseContent,
       },
@@ -109,7 +110,7 @@ export const sectionGroups = [
   id: "markets",
   icon: "🧺",
   title: "Markets",
-  subtitle: "Fresh food, local produce and morning market tips",
+  subtitle: "Enjoy the local markets like a local",
     image: "images/market.jpg",
   items: marketsContent
 },
@@ -117,24 +118,41 @@ export const sectionGroups = [
   id: "restaurants",
   icon: "🍽️",
   title: "Restaurants",
-  subtitle: "Relaxed meals, crêpes, seafood and local favourites",
-    image: "images/rest.jpg",
-  items: restaurantsContent
+  subtitle: "A few of our favourites",
+  image: "images/rest.jpg",
+
+  exploreMore: {
+    sectionId: "more-restaurants",
+    title: "More Restaurants",
+    description: "Discover more restaurants in the area",
+    icon: "🍴",
+  },
+
+  items: restaurantsContent,
+},
+{
+  id: "more-restaurants",
+  icon: "🍴",
+  title: "More Restaurants",
+  subtitle: "More places to eat across the local area **COMING SOON**",
+  image: "images/rest.jpg",
+  showOnHome: false,
+  includeInSequence: false,
+  items: moreRestaurantsContent
 },
 {
   id: "wine",
   icon: "🍷",
   title: "Wine",
-  subtitle: "Vineyards, tastings, Corbières, Minervois and BIB wine",
+  subtitle: "Vineyards, tastings, Corbières, Minervois and BIB (bag in box)",
   image: "images/wine.jpg",
-    image: "images/wine.jpg",
   items: wineContent
 },
 {
   id: "villages",
   icon: "🏘️",
   title: "Villages, Towns and Cities",
-  subtitle: "Moux, Escales, Lézignan, Narbonne, Carcassonne and more",
+  subtitle: "A few of the best places to visit",
     image: "images/beziers.jpg",
   items: villagesContent
 },
@@ -142,7 +160,7 @@ export const sectionGroups = [
   id: "beaches",
   icon: "🏖️",
   title: "Beaches",
-  subtitle: "Mediterranean beach days within easy reach",
+  subtitle: "Mediterranean beaches within easy reach",
     image: "images/beach.jpg",
   items: beachesContent
 },

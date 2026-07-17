@@ -84,17 +84,7 @@ The house currently has a portable air conditioning unit in the living room. Ins
 See **Inside the House** for instructions and video.
 `
   },
-  {
-  icon: "💷",
-  title: "Cost of your stay",
-  text: `
-Rather than charging commercial holiday rental rates, we're simply asking close family and friends to help cover some of the running costs.
 
-The contribution is **£15 per night**.
-
-Thank you – it helps with electricity, water, internet, pool maintenance and general upkeep, allowing us to keep sharing the house with family and friends.
-`
-},
 {
   icon: "🕐",
   title: "French opening hours",
@@ -126,4 +116,15 @@ Outside the signed Blue Zone hours, you can usually park without using the disc.
 
 `
   },
+    {
+  icon: "💷",
+  title: "Cost of your stay",
+  text: `
+Rather than charging commercial holiday rental rates, we're simply asking close family and friends to help cover some of the running costs.
+
+The contribution is **£15 per night**.
+
+Thank you – it helps with electricity, water, internet, pool maintenance and general upkeep, allowing us to keep sharing the house with family and friends.
+`
+},
 ];

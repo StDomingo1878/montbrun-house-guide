@@ -4,6 +4,9 @@ import HomeCard from "../components/HomeCard";
 import { sectionGroups } from "../data/guideContent";
 
 const allSections = sectionGroups.flatMap((group) => group.sections);
+const sequenceSections = allSections.filter(
+  section => section.includeInSequence !== false
+)
 
 function getSectionFromHash() {
   const sectionId = window.location.hash.replace("#", "");
@@ -19,14 +22,17 @@ function Home() {
   const [activeSection, setActiveSection] = useState(getSectionFromHash);
   const [installPrompt, setInstallPrompt] = useState(null);
 
-  const activeSectionIndex = activeSection
-    ? allSections.findIndex((section) => section.id === activeSection.id)
-    : -1;
+const activeSectionIndex = activeSection
+  ? sequenceSections.findIndex(
+      (section) => section.id === activeSection.id
+    )
+  : -1;
 
-  const nextSection =
-    activeSectionIndex >= 0 && activeSectionIndex < allSections.length - 1
-      ? allSections[activeSectionIndex + 1]
-      : null;
+const nextSection =
+  activeSectionIndex >= 0 &&
+  activeSectionIndex < sequenceSections.length - 1
+    ? sequenceSections[activeSectionIndex + 1]
+    : null;
 
   const openSection = (section) => {
     setActiveSection(section);
@@ -219,7 +225,39 @@ function Home() {
             </article>
           ))}
         </section>
+<section className="section-footer">
+{activeSection.exploreMore && (
+  <section className="next-section">
+    <p className="next-section-label">
+      Explore more
+    </p>
 
+    <button
+      className="next-section-button"
+      onClick={() =>
+        openSection(
+          allSections.find(
+            section =>
+              section.id === activeSection.exploreMore.sectionId
+          )
+        )
+      }
+    >
+      <span className="next-section-icon">
+        {activeSection.exploreMore.icon}
+      </span>
+
+      <span className="next-section-text">
+        <strong>{activeSection.exploreMore.title}</strong>
+        <small>{activeSection.exploreMore.description}</small>
+      </span>
+
+      <span className="next-section-arrow">
+        →
+      </span>
+    </button>
+  </section>
+)}
         {nextSection && (
           <section className="next-section">
             <p className="next-section-label">
@@ -245,6 +283,7 @@ function Home() {
             </button>
           </section>
         )}
+        </section>
       </main>
     );
   }
@@ -300,17 +339,19 @@ function Home() {
             </div>
           </div>
 
-          <div className="home-grid">
-            {group.sections.map((section) => (
-              <HomeCard
-                key={section.id}
-                icon={section.icon}
-                title={section.title}
-                subtitle={section.subtitle}
-                onClick={() => openSection(section)}
-              />
-            ))}
-          </div>
+  <div className="home-grid">
+  {group.sections
+    .filter((section) => section.showOnHome !== false)
+    .map((section) => (
+      <HomeCard
+        key={section.id}
+        icon={section.icon}
+        title={section.title}
+        subtitle={section.subtitle}
+        onClick={() => openSection(section)}
+      />
+    ))}
+</div>
         </section>
       ))}
     </main>

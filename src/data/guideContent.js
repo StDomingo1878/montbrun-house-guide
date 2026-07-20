@@ -121,12 +121,13 @@ export const sectionGroups = [
   subtitle: "A few of our favourites",
   image: "images/rest.jpg",
 
-  exploreMore: {
-    sectionId: "more-restaurants",
-    title: "More Restaurants",
-    description: "Discover more restaurants in the area",
-    icon: "🍴",
-  },
+exploreMore: {
+  enabled: false,
+  sectionId: "more-restaurants",
+  title: "Explore More",
+  description: "Discover more restaurants in the area",
+  icon: "🍴"
+},
 
   items: restaurantsContent,
 },

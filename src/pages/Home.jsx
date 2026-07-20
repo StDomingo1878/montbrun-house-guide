@@ -226,7 +226,7 @@ const nextSection =
           ))}
         </section>
 <section className="section-footer">
-{activeSection.exploreMore && (
+{activeSection.exploreMore?.enabled && (
   <section className="next-section">
     <p className="next-section-label">
       Explore more

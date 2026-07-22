@@ -18,6 +18,7 @@ import { scenicDrivesContent } from "../content/scenicDrives";
 import { walkingContent } from "../content/walking";
 import { favouritePlacesContent } from "../content/favouritePlaces";
 import { moreRestaurantsContent } from "../content/moreRestaurants";
+import { parkingContent } from "../content/parking";
 export const sectionGroups = [
   {
     id: "your-stay",
@@ -156,6 +157,14 @@ exploreMore: {
   subtitle: "A few of the best places to visit",
     image: "images/beziers.jpg",
   items: villagesContent
+},
+{
+  id: "parking",
+  icon: "🅿️",
+  title: "Parking",
+  subtitle: "Where to park in the main villages, towns and cities",
+  image: "images/parking.jpg",
+  items: parkingContent,
 },
 {
   id: "beaches",
